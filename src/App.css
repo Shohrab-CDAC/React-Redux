@@ -1,0 +1,45 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+h4 {
+  color: #555;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.quantity a {
+  display: inline-block;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: background-color 0.3s;
+}
+
+.quantity a:hover {
+  background-color: #45a049;
+}
+
+.quantity_input {
+  font-size: 1.5em;
+  margin: 0 10px;
+  padding: 10px;
+  width: 50px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
